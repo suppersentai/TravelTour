@@ -1,0 +1,8 @@
+@import '_content/WMBlazorSlickCarousel/WMBlazorSlickCarousel.bundle.scp.css';
+
+/* _content/QuanLyTourDuLich/Pages/Client/Index.razor.rz.scp.css */
+.slick-slide[b-fnlqsmyfc4] {
+
+    width:236px!important;
+}
+
