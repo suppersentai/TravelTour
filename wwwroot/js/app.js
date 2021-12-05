@@ -70,3 +70,13 @@ function reload() {
 function log(obj) {
     console.log(obj);
 }
+function initDatePicker(id) {
+    setTimeout(() => {
+        var $j = jQuery.noConflict();
+        var idag = new Date();
+        //idag = idag.setDate(idag.getDate() + 2)
+        $("input[type=date]").datepicker();
+        $("input[type=date]").datepicker("option", "dateFormat", 'yy-mm-dd');
+        $("input[type=date]").datepicker("setDate", idag );
+    }, 1000)
+}

@@ -1,6 +1,42 @@
 @import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 
-.wp-250{
+.item svg {
+    color: #2d4271 !important;
+    font-size: 14px;
+}
+
+.grid-list-2 {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.table-dense td{
+    padding: 4px 8px !important;
+}
+
+body {
+    font-weight: 400;
+    color: #2d4271 !important;
+    line-height: 24px;
+    font-size: 15px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+
+.mxh-2000 {
+    max-height: 2000px;
+}
+
+.mxh-1000 {
+    max-height: 1000px;
+}
+
+.wp-300 {
+    width: 300px;
+}
+
+.wp-250 {
     width: 250px;
 }
 
@@ -8,8 +44,9 @@
     width: 150px;
 }
 
-body {
-    color: black !important;
+button[checked="checked"] {
+    background: #4d4aef !important;
+    color: #fff;
 }
 
 .top-button {
